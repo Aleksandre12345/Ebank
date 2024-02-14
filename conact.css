@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 280px;
+    margin-top: 20px;
+}
+.crouch {
+    display: flex;
+    gap: 10px;
+}
+.viu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.list {
+    display: flex;
+    gap: 32px;
+}
+
+.paysphere {
+    color: #1D1C23;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.home, .contact, .aboutus, .support {
+    color: #1D1C23;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.button1 {
+    width: 86px;
+    height: 36px;
+    border-radius: 100px;
+    background-color: #2984F8;
+    border: none;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+.button2 {
+    width: 72px;
+    height: 36px;
+    border-radius: 100px;
+    background-color: #deecff;
+    color: #2984F8;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.bluebox {
+    width: 436px;
+    height: 712px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #0873ff 0.27%, #FFF 190.2%);
+    margin-left: 155px;
+    display: flex;
+    flex-direction: column;
+}
+.allelements {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 65px;
+    margin-left: 50px;
+}
+h1 {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+h3 {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 13px;
+}
+.p1 {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 6px;
+}
+.p2 {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.media {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+.ic1 {
+    cursor: pointer;
+}
+.firstbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 100px;
+    gap: 25px;
+}
+.fname {
+    margin-top: 10px;
+    width: 252px;
+    height: 46px;
+    border-radius: 10px;
+    padding-left: 15px;
+    outline: none;
+    border: 2px solid #DCE2E7;
+}
+.lname {
+    margin-top: 10px;
+    width: 252px;
+    height: 46px;
+    border-radius: 10px;
+    padding-left: 15px;
+    outline: none;
+    border: 2px solid #DCE2E7;
+}
+.t1 {
+    color: #1D1C23;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.s2 {
+    color: #1D1C23;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.input2 {
+    margin-top: 10px;
+    width: 528px;
+    height: 46px;
+    border-radius: 10px;
+    padding-left: 15px;
+    outline: none;
+    border: 2px solid #DCE2E7;
+}
+.secondbox {
+    margin-left: 100px;
+    margin-top: 24px;
+}
+.textarea {
+    width: 528px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 15px;
+    outline: none;
+    border: 2px solid #DCE2E7;
+    padding-top: 15px;
+}
+.message {
+    color: #1D1C23;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.chill {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.check {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    gap: 6px;
+    margin-top: 12px;
+}
+.input5 {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px; 
+    height: 16px;
+    border-radius: 5px;
+    border: 1.5px solid #DCE2E7;
+}
+.p5 {
+    width: 403px;
+    color: #1D1C23;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.btn3 {
+    color: #FFF;
+    width: 528px;
+    height: 48px;
+    border-radius: 8px;
+    background: #2984F8;
+    margin-top: 32px;
+    margin-left: 100px;
+    border: none;
+}
+.span {
+    color: #2984F8;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
